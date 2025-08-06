@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Muqaddas Naseer - Professional Portfolio</title>
+  <style>
+    :root {
+      --primary: #e7d6f7;
+      --accent: #5f4b8b;
+      --light: #fef9ff;
+      --highlight: #f3e5f5;
+      --text: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--light);
+      color: var(--text);
+      padding: 40px 20px;
+    }
+
+    header {
+      background-color: var(--highlight);
+      padding: 30px;
+      text-align: center;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      color: var(--accent);
+      font-size: 40px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--accent);
+      margin: 0 15px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-bottom: 15px;
+      font-size: 28px;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .profile-img {
+      border-radius: 12px;
+      width: 150px;
+      margin-top: 10px;
+    }
+
+    .table-section table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .table-section th, .table-section td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 30px;
+      padding: 10px;
+      background-color: var(--highlight);
+      border-radius: 12px;
+    }
+
+    audio, video {
+      margin-top: 15px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muqaddas Naseer</h1>
+    <p><span>Aspiring Computer Scientist | Front-End Developer | Graphic Designer | Tech for Impact</span></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#journey">Journey</a>
+    <a href="#skills">Skills</a>
+    <a href="#media">Media</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a <B>Computer Science student at UET Narowal</B> with a strong academic background and a passion for creating digital experiences. I believe in using technology for social change and aim to empower women and communities through innovative web and AI solutions.</p>
+    <img src="Profile.jpg" alt="Muqaddas Photo" class="profile-img">
+  </section>
+
+  <section id="journey">
+    <h2>My Journey</h2>
+    <ol>
+      <li>Matriculation (Science) – <b>96<sub>%</sub></b></li>
+      <li>Intermediate (Pre-Engineering) – <b>92<sub>%</sub></b></li>
+      <li><b>CGPA of 3.99 </b>at UET Narowal (Computer Science)</li>
+      <li>Started Web Development in 2022</li>
+      <li>Led and built projects like “Wardrobe on Rent”, Library System</li>
+      <li>Volunteered in social impact projects and tech awareness</li>
+      <li><b>Currently learning AI/ML for practical solutions</b></li>
+    </ol>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="table-section">
+      <table>
+        <tr>
+          <th>Skill</th>
+          <th>Proficiency</th>
+        </tr>
+        <tr>
+          <td>HTML5 & CSS3</td>
+          <td>Advanced</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>C++, Python</td>
+          <td>Advanced</td>
+        </tr>
+        <tr>
+          <td>DSA, Databases</td>
+          <td>Advanced</td>
+        </tr>
+        <tr>
+          <td>Git & GitHub</td>
+          <td>Intermediate</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="media">
+    <h2>Media Showcase</h2>
+    <p>Here is a sample audio introduction and a video overview of my journey:</p>
+    <audio controls>
+      <source src="Untitled_audio_15f14472.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <video controls>
+      <source src="invideo-ai-1080 4 CS Projects in 45 Seconds_ Student Por 2025-08-06.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section id="projects">
+    <h2>Highlighted Projects</h2>
+    <ul>
+      <li><strong>Wardrobe on Rent</strong> – A clothing rental platform with carousel UI and responsive design.</li>
+      <li><strong>Portfolio Website</strong> – Personal portfolio to showcase web development skills.</li>
+      <li><strong>Library Management System</strong> – C++ CLI-based system for handling books and records.</li>
+      <li><strong>Smog Crisis Website</strong> – Environmental awareness project with research-based UI.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions, ideas, or want to collaborate — reach out!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="margin-top: 20px;">
+      🌐 <a href="https://muqaddas-naseer.github.io/Portfolio" target="_blank">Visit My Live Portfolio</a><br>
+      📧 Email: <a href="mailto:muqaddasnaseer42401@gmail.com">muqaddasnaseer42401@gmail.com</a><br>
+      💼 LinkedIn: <a href="https://linkedin.com/in/muqaddasnaseer" target="_blank">linkedin.com/in/muqaddasnaseer</a><br>
+      💻 GitHub: <a href="https://github.com/Muqaddas-Naseer" target="_blank">github.com/Muqaddas-Naseer</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Muqaddas Naseer 
+
+ <ul class="footericon">
+            <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>&nbsp;
+            <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>&nbsp;
+            <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>&nbsp;
+            <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>&nbsp;
+            <a href="https://www.whatsapp.com" class="fa fa-whatsapp" target="_blank"></a>&nbsp;
+        </ul>
+        </p>
+
+  </footer>
+</body>
+</html>
